@@ -624,6 +624,11 @@ Style/SpaceBeforeModifierKeyword:
   Description: 'Put a space before the modifier keyword.'
   Enabled: true
 
+Style/SpaceInsideStringInterpolation:
+  Description: 'No spaces inside "#{v}".'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#string-interpolation'
+  Enabled: true
+
 Style/SpaceInsideBrackets:
   Description: 'No spaces after [ or before ].'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-spaces-braces'
